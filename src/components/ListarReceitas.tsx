@@ -43,7 +43,7 @@ export default function ListReceitas({ receitas = [] }: ListReceitasProps) {
         ))}
 
         {filtered?.length === 0 && (
-            <div className="card-desc">Nenhuma receita encntrada.</div>
+            <div className="card-desc">Nenhuma receita encontrada.</div>
         )}
       </div>
     </div>
